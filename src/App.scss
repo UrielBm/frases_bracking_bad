@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  font-family: "Roboto Mono", monospace !important;
+  font-weight: 400;
+  line-height: 1;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.wrapperMain {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  padding: 2rem 3rem;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background: -webkit-linear-gradient(
+    top left,
+    #007d35 0%,
+    #007d35 40%,
+    #0f574e 100%
+  );
+  .wrapperImg {
+    .img {
+      width: 18rem;
+    }
+  }
+  .wrapperFrase {
+    width: 100%;
+    margin: 2rem 0;
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    .frase {
+      font-style: oblique;
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      &::before {
+        content: open-quote;
+        font-size: 5rem;
+        color: #007d35;
+      }
+    }
+    .autor {
+      font-weight: 400;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: flex-end;
+      color: #6d6d6d;
+    }
+  }
+  .wrapperButton {
+    .actionButton {
+      font-weight: 100;
+      border-radius: 1rem;
+      border: none;
+      box-shadow: 10px 5px 5px black;
+      width: 300px;
+      font-size: 2rem;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      box-sizing: border-box;
+      background: -webkit-linear-gradient(
+        top left,
+        #007d35 0%,
+        #007d35 40%,
+        #0f574e 100%
+      );
+      outline: none;
+      transition: width, 0.4s;
+    }
+    .actionButton:hover {
+      cursor: pointer;
+      width: 320px;
+      background: -webkit-linear-gradient(
+        top left,
+        #103a21 0%,
+        #103a21 40%,
+        #0f574e 100%
+      );
+    }
+  }
+}
