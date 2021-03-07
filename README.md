@@ -1,4 +1,4 @@
-# App Cotizador
+# App frases Bracking Bad
 
 Esta es una aplicación hecha con las tecnlogias de React,Sass, HTML,Api Rest y Css para practicar mis conocimientos acerca de estos temás, la aplicación tiene una función de recuperar una frase de la serie brackingBad y su autor de la frase mediante la consulta de una API [Api](https://breaking-bad-quotes.herokuapp.com/v1/quotes) y buscar una nueva frase al darle click al botón.
 
